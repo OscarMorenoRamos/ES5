@@ -1,6 +1,6 @@
 import pytest
-from Game import Game
-from Player import Player
+from src.main.ref.Game import Game
+from src.main.ref.Player import Player
 
 @pytest.mark.parametrize("score_player_1, score_player_2, expected_result", [
     (0, 0, "Love-All"),
